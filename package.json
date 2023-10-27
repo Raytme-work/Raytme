@@ -13,6 +13,7 @@
 		"start": "ts-node ./src/index.ts",
 		"dev": "nodemon --exec ts-node ./src/index.ts",
 		"build": "tsc",
+		"clean": "npx rimraf build ",
 		"prod":"nodemon ./build/src/index.js"
 	},
 	"author": "Codiuem Inc.",
