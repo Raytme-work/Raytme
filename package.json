@@ -5,15 +5,16 @@
 	"main": "./src/index.ts",
 	"directories": {
 		"doc": "docs",
-		"test": "tests"
+		"test": "tests",
+		"src": "src"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "ts-node ./src/index.ts",
 		"dev": "nodemon --exec ts-node ./src/index.ts"
 	},
-	"author": "Codiuem",
-	"license": "ISC",
+	"author": "Codiuem Inc.",
+	"license": "MIT",
 	"dependencies": {
 		"@types/express": "^4.17.20",
 		"@types/winston": "^2.4.4",
